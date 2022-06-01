@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<title>First Web Application</title>
+</head>
+
+<body> 
+    <h1 th:text="${errorMessage}"></h1> 
+    <form method="post">
+        Enter Comma(,) Separated Integer Values : <input type="text" name="array" /> 
+        Select Sorting Algorithm : <select name="algo" id="algo">
+            <option value="selection-sort">Selection Sort</option>
+            <option value="bubble-sort">Bubble Sort</option>
+            <option value="insertion-sort">Insertion Sort</option>
+          </select>
+        <input type="submit" />
+    </form>
+</body>
+
+</html>
